@@ -4,7 +4,7 @@ const app = express();
 const PORT = 5000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://pniral54:<password>@niralkumar.bqjh4sb.mongodb.net/?retryWrites=true&w=majority&appName=niralkumar', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://pniral54:<NIRALpatel2000>@niralkumar.bqjh4sb.mongodb.net/?retryWrites=true&w=majority&appName=niralkumar', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.log(err));
 
